@@ -238,7 +238,7 @@ python main.py
 
 ### Step 1: Clone Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ahmed-Essam-Hammam/Scalable-Alignment-of-Medical-LLMs-Using-Preference-Learning-and-RLHF.git
 cd MODEL_B_HITL
 ```
 
@@ -353,13 +353,11 @@ direct-preference-optimization-fine-tuning_Model_D.ipynb
 
 | Model | Method | Training Time | GPU Memory | Trainable Params |
 |-------|--------|---------------|------------|------------------|
-| **A** | SFT | 2-3 hours | 8GB | 20M (0.5%) |
-| **B** | HITL | Iterative | 8GB | 20M (0.5%) |
-| **C** | RLHF/PPO | 2-3 hours | 16GB | 20M (0.5%) |
-| **D** | DPO | 30-60 min | 10GB | 20M (0.5%) |
+| **A** | SFT | 7-9 hours | 8GB | 9M (0.5%) |
+| **B** | HITL | Iterative | 8GB | 9M (0.5%) |
+| **C** | RLHF/PPO | 2-3 hours | 16GB | 9M (0.5%) |
+| **D** | DPO | 2-3 hours | 8GB | 9M (0.5%) |
 
-### Evaluation Metrics
-[Add your evaluation results here when available]
 
 **Recommended Metrics**:
 - Medical accuracy
