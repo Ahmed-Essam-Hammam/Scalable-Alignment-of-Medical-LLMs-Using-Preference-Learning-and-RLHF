@@ -1,0 +1,13 @@
+transformers
+datasets
+accelerate
+peft
+bitsandbytes
+trl
+gradio
+torch
+pandas
+huggingface_hub
+hf_xet
+sentencepiece
+protobuf

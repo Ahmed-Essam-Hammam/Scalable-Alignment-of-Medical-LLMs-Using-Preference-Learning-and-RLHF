@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Model files
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Data
+*.jsonl
+data/
+
+# Logs
+logs/
+*.log
